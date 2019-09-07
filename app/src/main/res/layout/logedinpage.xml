@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:id="@+id/user_imageview"
+        android:layout_width="154dp"
+        android:layout_height="149dp"
+        android:src="@drawable/man"
+        />
+
+    <TextView
+        android:id="@+id/user_textview"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <view
+        class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:layout_width="match_parent"
+        android:layout_height="424dp"
+        android:id="@+id/recyclerview">
+
+    </view>
+
+
+</LinearLayout>
